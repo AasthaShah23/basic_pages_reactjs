@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.header{
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.dashboard{
+    color: #2369F2;
+}
+
+.header-links p{
+    margin: 10px;
+    cursor: pointer;
+}
+
+.link{
+    color: #717886;
+}
+
+.login-register-link{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login-register-link a{
+    color: #63686e;
+    text-decoration: none;
+}

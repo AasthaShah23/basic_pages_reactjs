@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page-not-found-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-not-found-box{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.page-not-found-box h1{
+    margin: 10px 0px 15px 0px;
+}
+
+.page-not-found-box p{
+    color: #7c808c;
+}
+
+.not-found-img{
+    height: 300px;
+    width: 300px;
+}
+
+.go-back-btn1{
+    margin-top: 20px;
+    margin-right: auto;
+    padding: 10px;
+    background-color: rgb(30, 71, 255);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.go-back-btn1 i{
+    margin-right: 10px;
+}

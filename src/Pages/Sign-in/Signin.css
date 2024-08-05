@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signin-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    width: 850px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 80px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imagebox2{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.sign-in-account{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-account h1{
+    margin-top: 40px;
+    text-align: left;
+}
+
+.sign-in-account form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.sign-in-account form input{
+    padding: 10px 200px 10px 10px;
+    border-radius: 15px;
+    background-color: #F9FAFB;
+    margin-top: 5px;
+    border-color: #EDEEF1;
+}
+
+.sign-in-account form label{
+    text-align: left;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.con-pass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.terms-cond{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    display: flex;
+}
+
+.terms-cond p{
+    margin-left: 5px;
+    color: #7D8390;
+}
+
+.terms-cond p span{
+    color: #2167F2;
+}
+
+.accbtn{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(30, 71, 255);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.reset-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F9FAFB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reset-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imagebox{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.reset-password{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.reset-password h1{
+    margin-bottom: 15px;
+}
+
+.reset-password form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+   
+}
+
+.reset-password form input{
+    padding: 10px 200px 10px 10px;
+    border-radius: 15px;
+    background-color: #F9FAFB;
+    margin-top: 5px;
+    border-color: #EDEEF1;
+}
+
+.reset-password form label{
+    text-align: left;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.con-pass{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.terms-cond{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    display: flex;
+}
+
+.terms-cond p{
+    margin-left: 5px;
+    color: #7D8390;
+}
+
+.terms-cond p span{
+    color: #2167F2;
+}
+
+.accbtn{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(30, 71, 255);
+    border-radius: 7px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
